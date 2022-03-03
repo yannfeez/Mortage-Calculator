@@ -1,0 +1,76 @@
+* {
+  font-family: 'Poppins', sans-serif;;
+}
+
+body {
+  background-color: #EDEEF6;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: solid 20px #fff;
+  border-radius: 40px;
+  padding: 32px;
+
+}
+
+.slider_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, max-content);
+  grid-gap: 32px;
+  width: inherit;
+}
+
+.slider > div > div > div {
+  border: solid 5px #8C56FF!important;
+}
+
+.slider > div {
+  width: 300px;
+}
+
+.btn_mortage {
+  background-color: #8C56FF;
+  color: #fff;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+
+.btn_mortage:hover {
+  background-color: #7636FF;
+}
+
+.result {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.error {
+  font-weight: 600;
+  color: #FF6C83;
+  margin: 0;
+}
+
+.div_error {
+  display: flex;
+  align-items: center;
+}
